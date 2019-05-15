@@ -1,0 +1,9 @@
+{
+  presets: [
+    [ '@babel/preset-react', {
+        pragma: 'dom',
+		    pragmaFrag: 'fragment',
+        throwIfNamespace: false
+    }]
+  ]
+}
